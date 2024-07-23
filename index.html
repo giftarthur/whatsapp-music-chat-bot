@@ -9,13 +9,15 @@
 <body>
     <div class="container">
         <h1>WhatsApp Music Download Bot</h1>
-        <form id="downloadForm">
-            <label for="youtubeUrl">YouTube URL:</label>
-            <input type="url" id="youtubeUrl" name="youtubeUrl" required>
-            <label for="phoneNumber">WhatsApp Number:</label>
-            <input type="tel" id="phoneNumber" name="phoneNumber" required>
-            <button type="submit">Download and Send</button>
-        </form>
+        <div class="form-container">
+            <form id="downloadForm">
+                <label for="youtubeUrl">YouTube URL:</label>
+                <input type="url" id="youtubeUrl" name="youtubeUrl" required>
+                <label for="phoneNumber">WhatsApp Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                <button type="submit">Download and Send</button>
+            </form>
+        </div>
         <p id="responseMessage"></p>
     </div>
     <script src="script.js"></script>
