@@ -2,7 +2,7 @@
   "name": "whatsapp-music-chat-bot",
   "version": "1.0.0",
   "description": "Chatbot to download music via whatsApp chat",
-  "main": "script.js",
+  "main": "sc.js",
   "scripts": {
     "test": ""
   },

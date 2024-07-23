@@ -1,4 +1,4 @@
-document.getElementById('downloadForm').addEventListener('submit', async (e) => {
+export default document.getElementById('downloadForm').addEventListener('submit', async (e) => {
     e.preventDefault();
 
     const youtubeUrl = document.getElementById('youtubeUrl').value;

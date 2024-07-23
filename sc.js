@@ -25,7 +25,7 @@ app.post('/download', async (req, res) => {
         console.log('filename: ' + info._filename);
     });
 
-    video.pipe(fs.createWriteStream('downloaded_music.mp3')); //todo: rename to music using vars eg: -> `${info._filename}.mp3`
+    video.pipe(fs.createWriteStream('downloaded_music.mp3')); //todo: dynamically rename the downloads to music name using vars eg: -> `${info._filename}.mp3`
 
     video.on('end', async () => {
         try {
